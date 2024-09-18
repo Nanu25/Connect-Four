@@ -28,5 +28,16 @@ The algorithm selects the move that minimizes the possible loss (hence, minimax)
 
 ## Future Improvements
 
--Add a GUI for better user experience.
--Optimize the Minimax algorithm using Alpha-Beta pruning.
+- Add a GUI for better user experience.
+- Optimize the Minimax algorithm using Alpha-Beta pruning.
+
+## Photos
+
+You can choose your gamemode:
+![image](https://github.com/user-attachments/assets/6cfad1d1-d813-4350-86c9-047c5784823d)
+
+
+We can see the board after every move:
+![image](https://github.com/user-attachments/assets/70a31f6c-835e-466c-bf65-1e21f4bbc301)
+
+
