@@ -28,7 +28,6 @@ The algorithm selects the move that minimizes the possible loss (hence, minimax)
 
 ## Future Improvements
 
-- Add a GUI for better user experience.
 - Optimize the Minimax algorithm using Alpha-Beta pruning.
 
 ## Photos
