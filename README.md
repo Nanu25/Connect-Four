@@ -37,8 +37,8 @@ The algorithm selects the move that minimizes the possible loss (hence, minimax)
 - ![Player Setup](https://github.com/Nanu25/Connect-Four/blob/main/PlayerSetup)
 
 - We can see the board after every move:
-- ![image](https://github.com/user-attachments/assets/70a31f6c-835e-466c-bf65-1e21f4bbc301)
+- ![image](https://github.com/Nanu25/Connect-Four/blob/main/gamerun.png)
 
 - It's very hard to beat the computer, but sometimes it's possible:
-- ![image](https://github.com/user-attachments/assets/246cf12f-9a87-46ab-8e7c-c28d4bb1e284)
+- ![image](https://github.com/Nanu25/Connect-Four/blob/main/Win)
 
