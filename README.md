@@ -39,7 +39,6 @@ Here’s how the Minimax algorithm works in Connect Four:
 ## Future Improvements
 
 - **Alpha-Beta Pruning**: Optimize the Minimax algorithm to make it more efficient by reducing the number of nodes evaluated.
-- **Enhanced AI Difficulty**: Add more dynamic difficulty levels that adapt to the player's skill.
 - **Graphical Enhancements**: Improve the visual experience with animations and better UI components.
 
 ## Screenshots
