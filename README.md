@@ -45,6 +45,7 @@ Here’s how the Minimax algorithm works in Connect Four:
 
 ### 1. Choose Your Game Mode
 Select between playing against the AI or another human player.
+
 ![Game Mode](https://github.com/Nanu25/Connect-Four/blob/main/GameMode)
 
 ### 2. Player Setup
