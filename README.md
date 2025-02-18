@@ -49,8 +49,8 @@ Select between playing against the AI or another human player.
 
 ### 2. Player Setup
 Enter your player names to start the game.
-![Player Setup](https://github.com/Nanu25/Connect-Four/blob/main/PlayerSetup)
 
+![Player Setup](https://github.com/Nanu25/Connect-Four/blob/main/PlayerSetup)
 ### 3. The Game in Action
 Here is an example of the board after a few moves.
 ![Game Run](https://github.com/Nanu25/Connect-Four/blob/main/gamerun.png)
