@@ -28,6 +28,36 @@ Here’s how the Minimax algorithm works in Connect Four:
 4. The AI chooses the move with the best score, ensuring that it plays optimally.
 5. The algorithm operates by assuming both players are playing optimally, aiming to minimize the AI’s potential loss.
 
+## Alpha-Beta Pruning Optimization
+The **Alpha-Beta pruning** is an optimization technique for the Minimax algorithm that significantly reduces the number of nodes evaluated in the game tree without affecting the final decision. This optimization makes the AI more efficient while maintaining the same level of gameplay intelligence.
+
+Here's how Alpha-Beta pruning enhances the Minimax algorithm in Connect Four:
+
+1. The algorithm maintains two values, **alpha** and **beta**, which represent the minimum score that the maximizing player is assured of and the maximum score that the minimizing player is assured of, respectively.
+
+2. During the tree search:
+   - Alpha starts at negative infinity and increases as better moves are found
+   - Beta starts at positive infinity and decreases as better opponent moves are found
+   - When alpha becomes greater than or equal to beta, remaining branches can be "pruned" (skipped)
+
+3. Pruning occurs because:
+   - If the current position is already worse than what either player can force in another branch
+   - The algorithm can prove no better outcome is possible in the remaining positions
+   - Therefore, there's no need to explore those branches further
+
+4. The optimization is most effective when:
+   - The best moves are evaluated first (earlier pruning)
+   - The game has a high branching factor (many possible moves)
+   - Good moves tend to be clustered (allowing for more cutoffs)
+
+5. Benefits of the optimization:
+   - Reduces the number of positions evaluated
+   - Allows for deeper search within the same time constraints
+   - Maintains exactly the same move selection as regular Minimax
+   - Particularly effective in games like Connect Four with many possible moves
+
+For example, in a typical Connect Four position with depth 4, Alpha-Beta pruning might evaluate only 1000 positions instead of the 8000 positions that regular Minimax would examine, while reaching the same decision.
+
 ## Features
 
 - **Human vs Computer**: Play against an AI opponent that uses the Minimax algorithm to make optimal decisions.
@@ -37,8 +67,6 @@ Here’s how the Minimax algorithm works in Connect Four:
 - **Responsive UI**: The game supports a simple yet interactive interface using **Pygame** for displaying the board and moves.
 
 ## Future Improvements
-
-- **Alpha-Beta Pruning**: Optimize the Minimax algorithm to make it more efficient by reducing the number of nodes evaluated.
 - **Graphical Enhancements**: Improve the visual experience with animations and better UI components.
 
 ## Screenshots
